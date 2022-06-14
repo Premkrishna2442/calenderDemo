@@ -63,7 +63,9 @@ class Import extends Component {
             placeholder='End time in formate :"2022-04-29T18:00:00+05:30"'
           />
           <button onClick={() => this.insertEvent()} className="Input button">
-           
+          <Link to="/">
+              <p className="buttonText">Import Event</p>
+            </Link>
           </button>
         </div>
       </div>
